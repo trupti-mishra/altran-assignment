@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "../css/UserDetails.css";
 import Users from "./Users";
-import ProfileImage from "./ProfileImage";
+import UserImage from "./UserImage";
 export default class UserDetails extends React.Component{
     render(){
         let userData=this.props.history && this.props.history.location&&
@@ -11,7 +11,7 @@ export default class UserDetails extends React.Component{
             <div className={"UserDetails-wrapper"}>
             <div className={"UserDetails-user"}>
             <div className={"UserDetails-image"}>
-            <ProfileImage
+            <UserImage
               src={
                 userData && userData.avatar
               }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfileImage from "./ProfileImage"
+import UserImage from "./UserImage"
 import "../css/UserCard.css";
 export default class Users extends React.Component{
     handleRedirect(){
@@ -13,7 +13,7 @@ export default class Users extends React.Component{
         <div className={"UserCard-base"}  onClick={() =>
             this.handleRedirect()}>
         <div className={"UserCard-image"}>
-            <ProfileImage
+            <UserImage
               src={
                 users && users.avatar
               }

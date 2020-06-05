@@ -32,8 +32,8 @@ handleRedirect(userData){
 render(){
   let {users}=this.state;
     return(
-        <div className={"base"}>
-            <div className={"wrapper"}>
+        <div className={"users-base"}>
+            <div className={"users-wrapper"}>
             {users && users.map((data,i)=>{            
            return (
              <UserCard key={i} users={data} handleRedirect={()=>{this.handleRedirect(data)}}/>
