@@ -1,0 +1,16 @@
+.base {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: #ebeced;
+    padding: 50px 0px;
+  }
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
